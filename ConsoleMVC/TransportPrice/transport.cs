@@ -13,7 +13,7 @@ namespace TransportPrice
             double train = 0.06;
             double bus = 0.09;
 
-            
+
 
             switch (dayOrNight)
             {
@@ -28,8 +28,8 @@ namespace TransportPrice
                     {
                         double trnsprt2 = n * bus;
                         Console.WriteLine(trnsprt2);
-                        
-                        
+
+
                     }
 
                     else if (n >= 100)
@@ -43,13 +43,13 @@ namespace TransportPrice
                 case "night":
                     if (n < 20)
                     {
-                        double trnsprt1 = taxi + n * 0.90; 
+                        double trnsprt1 = taxi + n * 0.90;
                         Console.WriteLine(Math.Floor(trnsprt1));
                     }
 
                     else if (n >= 20 && n < 100)
                     {
-                        double trnsprt2 = n * bus; 
+                        double trnsprt2 = n * bus;
                         Console.WriteLine(Math.Floor(trnsprt2));
                     }
 

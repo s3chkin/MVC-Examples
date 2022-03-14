@@ -20,8 +20,8 @@ namespace KeyboardShortcuts
 
         public BankAccount(int id, double balance)
         {
-            ID = id;
-            Balance = balance;
+            this.ID = id;
+            this.Balance = balance;
         }
     }
 
