@@ -13,6 +13,7 @@ namespace TransportPrice
             double train = 0.06;
             double bus = 0.09;
 
+            
 
             switch (dayOrNight)
             {
