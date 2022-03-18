@@ -15,14 +15,14 @@ namespace ArrayExamples
             for (int i = 0; i < nums.Length; i++)
             {
                 Console.Write(nums[i] + " ");
-                //if (nums[i] == nums[i])
-                //{
-                //    Console.WriteLine("Има еднакви!");
-                //}
-                //else if (nums[i] != nums[i])
-                //{
-                //    Console.WriteLine("“No occurrences were found!”.");
-                //}
+                if (nums[i] == nums[i])
+                {
+                    Console.WriteLine("Има еднакви!");
+                }
+                else if (nums[i] != nums[i])
+                {
+                    Console.WriteLine("“No occurrences were found!”.");
+                }
                 if (nums[i] == nums[i] )
                 {
                     Console.Write("  Има еднакви! ");
