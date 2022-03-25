@@ -17,17 +17,13 @@ namespace ArrayExamples
                 Console.Write(nums[i] + " ");
                 if (nums[i] == nums[i])
                 {
-                    Console.WriteLine("Има еднакви!");
+                    Console.WriteLine(nums[i]);
                 }
                 else if (nums[i] != nums[i])
                 {
                     Console.WriteLine("“No occurrences were found!”.");
                 }
-                if (nums[i] == nums[i] )
-                {
-                    Console.Write("  Има еднакви! ");
-
-                }
+               
             }
 
             //if (nums[0] == nums[i] || nums[1] == nums[1] || nums[2] == nums[2] || nums[3] == nums[3]
